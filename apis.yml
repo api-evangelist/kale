@@ -1,21 +1,47 @@
 aid: kale
 name: Kale
-description: 'Kale is a company surfaced as a portfolio company of forerunner-ventures and added to the
-  API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Kale (operated by Palette Technologies, Inc., dba Kale) is a creator-rewards
+  and user-generated-content marketplace that connects social-media content creators
+  with brands. Creators join brand challenges and tournaments, post authentic sponsored
+  content about products they use, and earn cash, merchandise, and perks; brands source
+  authentic UGC and micro-influencer marketing at scale. The platform is delivered
+  through the getkale.com and kalecard.com web apps and native iOS/Android apps, with
+  a merchant network spanning consumer brands such as Chili''s, Planet Fitness, Urban
+  Outfitters, DoorDash, Southwest, and Starbucks. Kale is backed by Forerunner Ventures.
+  No public developer/API surface is published; this profile captures the company''s
+  public identity and security posture.'
 url: https://raw.githubusercontent.com/api-evangelist/kale/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - forerunner-ventures
+x-legal-name: Palette Technologies, Inc.
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://framerusercontent.com/images/cGDleoOfJhKqs6pk1CSNHfWDpng.png
 tags:
 - Company
 - Fintech
+- Creator Economy
+- User-Generated Content
+- Influencer Marketing
+- Rewards
+- Social Media
+- Marketing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +51,20 @@ maintainers:
 common:
 - type: Website
   url: https://www.getkale.com
+- type: Blog
+  url: https://www.getkale.com/blog
+- type: Support
+  url: https://help.getkale.com/en/
+- type: SignUp
+  url: https://app.getkale.com/signup
+- type: TermsOfService
+  url: https://www.getkale.com/policies/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.getkale.com/policies/privacy-policy
+- type: DomainSecurity
+  url: security/kale-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
